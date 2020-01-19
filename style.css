@@ -8,10 +8,10 @@ body{
 h1{
 	text-align: center;
 	margin: 50px 0 !important;
-	font-size: 50px;
+	font-size: 30px !important;
 }
 input{
-	margin-bottom: 20px !important;
+	margin-bottom: 25px !important;
 }
 .form{
 	display: flex;
@@ -44,9 +44,9 @@ input{
 }
 #demo{
 	display: block;
-    border: 1px solid;
-    padding: 15px;
-    border-radius: 5px;
-    background: #6f2b2b;
-    display: none;
+    	border: 1px solid;
+    	padding: 15px;
+    	border-radius: 5px;
+    	background: #6f2b2b;
+    	display: none;
 }
