@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profit per Day</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<body>
+	<h1>Calculate Ivan's profit per day after taxes</h1>
+	<div class="wrapper">
+		<div class="form form-group">
+			<label for="days">How many days you work per month?</label>
+			<input type="text" class="form-control" name="days" id="days"/>
+			<label for="money">How much money you make per day?</label>
+			<input type="text" class="form-control" name="money" id="money">
+			<label for="exchange">Exchange Rate USD/BGN</label>
+			<input type="text" class="form-control" name="exchange" id="exchange">
+			<input type="submit" name="" class="btn btn-secondary btn-lg btn-block" value="Calculate" onclick="profitIvan()">
+			<div id="demo"></div>
+		</div>
+		<div class="explain">
+			<h3>Задача</h3>
+			<p>Иван е програмист в американска компания и работи от вкъщи средно N дни в месеца, като изкарва средно по M долара на ден. В края на годината Иван получава бонус, който е равен на 2.5 месечни заплати. От спечеленото през годината му се удържат 25% данъци. Напишете програма, която да пресмята колко е чистата средна печалба на Иван на ден в лева, тъй като той харчи изкараното в България. Приема се, че в годината има точно 365 дни. Курсът на долара спрямо лева ще се подава на функцията.</p>
+		</div>
+		<div class="data">
+			<h3>Входни данни</h3>
+			<p>На функцията се подават 3 аргумента:</p>
+			<ul>
+				<li>Работни дни в месеца - цяло число в интервала [5 … 30].</li>
+				<li>Изкарани пари на ден - реално число в интервала [10.00 … 2000.00].</li>
+				<li>Курсът на долара спрямо лева /1 долар = X лева/ - реално число в интервала [0.99 … 1.99]</li>
+			</ul>
+			<h3>Изходни данни</h3>
+			<p>На конзолата да се отпечата едно число – средната печалба на ден в лева. Резултатът да се форматира до втората цифра след десетичния знак.</p>
+		</div>
+	</div>
+
+<script src="script.js"></script>
+</body>
+</html>
