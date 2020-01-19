@@ -10,6 +10,6 @@ function profitIvan(){
   
 
   document.getElementById('demo').style.display = "block";
-  document.getElementById('demo').innerHTML = 'You make average ' + (salaryNetBgn / 365).toFixed(2) + ' Leva per day!';
+  document.getElementById('demo').innerHTML = 'Ти правиш средно по ' + (salaryNetBgn / 365).toFixed(2) + ' лева на ден!';
 }
 
